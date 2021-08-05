@@ -1,0 +1,199 @@
+.title-registration {
+    background-color: #F8F3F4;
+}
+.title-registration-container {
+    min-height: 148px;
+    display: flex;
+    align-items: center;
+}
+.title-registration-container__heading {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+.cart-registration-container {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-registration-forms {
+    width: 360px;
+    padding-top: 64px;
+    padding-bottom: 96px;
+}
+.cart-registration-forms__name {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}.cart-registration-forms__input-name {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $main-pink;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    width: 360px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.cart-registration-forms__input-name ::placeholder {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.cart-registration-forms__gender {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    padding-top: 31px;
+}
+.cart-registration-forms__gender :nth-child(3) {
+    display: none;
+}
+.gender-margin input {
+    margin-right: 10px;
+}
+.gender-margin {
+    margin-right: 20px;
+}
+.cart-registration-forms__login {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 32px;
+}
+.cart-registration-forms__input-login {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $main-pink;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    width: 360px;
+    margin-top: 20px;
+    box-sizing:border-box;
+}
+.cart-registration-forms__input-login ::placeholder {
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.cart-registration-forms__text {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    padding-top: 15px;
+    padding-bottom: 39px;
+}
+.cart-registration-form__btn {
+    padding: 16px 27px 17px 29px;
+    border: none;
+    background-color: $main-pink;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    text-align: center;
+    transition: 0.4s;
+    &:hover {
+        transform: rotate(180deg);
+    }
+}
+.cart-registration-form__arrow {
+    margin-left: 20px;
+}
+.cart-registration-loyalty {
+    padding-top: 64px;
+    width: 645px;
+}
+.cart-registration-loyalty__name {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.cart-registration-loyalty__text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 22px;
+    margin-bottom: 21px;
+}
+.cart-registration-loyalty__item {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.cart-registration-loyalty__item svg {
+    margin-right: 23px;
+}
+@media (max-width: 1180px) {
+    .cart-registration-forms {
+        width: 358px;
+        padding-top: 40px;
+      }
+      .cart-registration-forms__input-name {
+        width: 358px;
+      }
+      .cart-registration-forms__gender :nth-child(3) {
+        display: inline-block;
+    }
+      .cart-registration-forms__input-login {
+        width: 358px;
+      }
+      .cart-registration-loyalty {
+        width: 354px;
+      }
+      .cart-registration-loyalty__name {
+        font-size: 16px;
+        line-height: 19px;
+      }
+      .cart-registration-loyalty__text {
+        flex-wrap: wrap;
+        margin-top: 32px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      .cart-registration-loyalty__item {
+        font-size: 16px;
+        line-height: 19px;
+      }
+}
+@media (max-width: 766px) {
+    .title-registration-container {
+        justify-content: center;
+        padding-top: 39px;;
+    }
+    .cart-registration-container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 7px;
+        padding-right: 7px
+    }
+    .cart-registration-forms {
+        padding-bottom: 0;
+      }
+    .cart-registration-loyalty {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+}

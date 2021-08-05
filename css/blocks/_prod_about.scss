@@ -1,0 +1,109 @@
+.product-about-container {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: -64px;
+    margin-bottom: 130px;
+    background-color: #FFFFFF;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border: 1px solid #EAEAEA;
+}
+.division-product {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-align: center;
+}
+.description-product-line {
+    background-color: #EF5B70;
+    width: 63px;
+    height: 3px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.hidden-product {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-top: 12px;
+}
+.description-product {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-top: 48px;
+}
+.product-price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin-top: 32px;
+}
+.product-links-line {
+    background-color: #EAEAEA;
+    height: 1px;
+    width: 640px;
+    border: none;
+    display: flex;
+    margin-top: 65px;
+}
+.title-products-links {
+    display: flex;
+    text-decoration: none;
+    margin-top: 65px;
+}
+.link-title-product {
+    display: flex;
+    text-decoration: none;
+}
+.text-title-product { 
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-left: 10px;
+}
+.dropdown-product-list {
+    margin-top: 7px;
+    width: 30px;
+}
+.product-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 40px;
+    color: #EF5B70;
+    border: 1px solid #FF6A6A;
+    box-sizing: border-box;
+    margin-top: 48px;
+
+    transition: 0.4s;
+}
+.product-btn:hover {
+    transform: scale(1.5, 1.5);
+    color: #FFFFFF;
+    background-color: $main-pink;
+  }
+.product-btn:hover svg {
+    fill: #FFFFFF;
+}
+.bascet-product {
+    fill: #EF5B70;
+    padding-right: 22px;
+}
+@media (max-width: 800px) {
+    .product-about-container {
+    margin-top: 0;
+}
+}
