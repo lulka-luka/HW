@@ -1,0 +1,24 @@
+.product-cards-wrap {
+    padding-bottom: 100px;
+}
+@media (max-width: 1180px) {
+    .product-about-container {
+        margin-bottom: 64px;
+    }
+    .card-product:nth-child(3) {
+        display: none;
+      }
+    .product-cards-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 761px) {
+    .card-product:nth-child(3) {
+        display: inline-block;
+      }
+    .card-product:nth-child(2) {
+        display: none;
+      }
+}

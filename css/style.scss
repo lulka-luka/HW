@@ -1,0 +1,52 @@
+/*переменные*/
+@import "_var.scss";
+
+/*миксины*/
+@import "_mixins.scss";
+
+/*база*/
+@import "_main.scss";
+
+/*header*/
+@import "blocks/_header.scss";
+
+/*плюсы*/
+@import "blocks/_pluses.scss";
+
+/*обратная связь*/
+@import "blocks/_feedback.scss";
+
+/*footer*/
+@import "blocks/_footer.scss";
+
+/*страница главной основное*/
+@import "blocks/_site_main.scss";
+
+/*категории товаров на главной*/
+@import "blocks/_categories_main.scss";
+
+/*карточки товаров*/
+@import "blocks/_cards.scss";
+
+/*название страницы каталога
+название страницы продукта*/
+@import "blocks/_header_pages.scss";
+
+/*карточки каталога с фильтрами
+и пагинацией*/
+@import "blocks/_catalog_cards.scss"; 
+
+/*продукт*/
+@import "blocks/_product.scss";
+
+/*описание товара*/
+@import "blocks/_prod_about.scss"; 
+
+/*карточки товара на стр продукт*/
+@import "blocks/_prod_cards.scss";
+
+/*страница cart c ЧАСТЬ. С ПОЛЯМИ ВВОДА и расчетом*/
+@import "blocks/_cart.scss"; 
+
+/*страница регистрации*/
+@import "blocks/_registration.scss"; 

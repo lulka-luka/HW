@@ -1,0 +1,42 @@
+.title-catalog {
+    background-color: #F8F3F4;
+    min-height: 148px;
+}
+.title-catalog-container {
+    display: flex;
+    min-height: 148px;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-catalog-heading {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+.title-catalog-links {
+    display: flex;
+} 
+.link-title-catalog {
+    text-decoration: none;
+    display: flex;
+}
+.text-title-catalog {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.text-title-catalog:hover {
+    color: #F16D7F;
+    font-weight: 700;
+}
+@media (max-width: 761px) {
+    .title-catalog-container {
+        flex-direction: column;
+        padding-top: 24px;
+        padding-bottom: 46px;
+        box-sizing: border-box;
+    } 
+}

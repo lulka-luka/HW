@@ -1,0 +1,36 @@
+.product {
+    background-color: #F7F7F7;
+    min-height: 777px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 64px;
+}
+.description-btn {
+    background-color: rgba(42, 42, 42, 0.15);
+    color: #000000;
+    padding: 15px 19px;
+    border: none;
+    position: absolute;
+    transition: 0.4s;
+}
+.description-btn:hover {
+    fill: #EF5B70;
+    transform: scale(1.5, 1.5);
+  }
+.description-btn:active {
+    opacity: 0.5;
+  }
+.description-btn-left {
+    left: 10px;
+}
+.descriotion-btn-right {
+    right: 10px;
+}
+@media (max-width: 800px) {
+    .product {
+        min-height: 624px;
+        padding-bottom: 25px;
+    }
+}
